@@ -1,0 +1,67 @@
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Iterator;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class dataDriven2 {
+
+	public static void getData() throws IOException {
+		FileInputStream fis = new FileInputStream("C:\\Users\\user\\Downloads\\demodata.xlsx");
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+		int noOfSheets = workbook.getNumberOfSheets();
+		System.out.println("noOfSheets " + noOfSheets);
+		for (int i = 0; i < noOfSheets; i++) {
+			if (workbook.getSheetAt(i).getSheetName().equalsIgnoreCase("testdata")) {
+				String s = workbook.getSheetAt(i).getSheetName();
+				System.out.println(s);
+				XSSFSheet sheet = workbook.getSheetAt(i);
+				Iterator<Row> rows = sheet.rowIterator();
+				Row firstRow = rows.next();
+				Iterator<Cell> cells = firstRow.cellIterator();
+				int k = 0;
+				int column = 0;
+				while (cells.hasNext()) {
+
+					Cell c = cells.next();
+
+					if (c.getStringCellValue().equalsIgnoreCase("Data1")) {
+						column = k;
+						System.out.println("Data1 coulmn is " + column);
+						while (rows.hasNext()) {
+							Row r = rows.next();
+						String text=	r.getCell(column).getStringCellValue();
+							System.out.println("Cell vaue is "+text);
+
+						}
+					}
+
+					if (c.getStringCellValue().equalsIgnoreCase("Data2")) {
+						column = k;
+						System.out.println("Data2 coulmn is " + column);
+						while (rows.hasNext()) {
+							Row r = rows.next();
+						String text=	r.getCell(column).getStringCellValue();
+							System.out.println("Cell2 vaue is "+text);
+
+						}
+					}
+					k++;
+				}
+				
+			}
+		}
+
+	}
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		getData();
+
+	}
+
+}

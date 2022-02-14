@@ -1,0 +1,21 @@
+package testCases;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+
+import pages.LandingPage;
+import resources.base;
+
+public class VeifyTitle_TC2 extends base{
+	
+	public void validateTitle() throws IOException
+	{
+		driver=initializeDriver();
+		LandingPage landingPage=new LandingPage(driver);
+		Assert.assertEquals(landingPage.getTitle().getText(), "Featured Courses");
+		
+		
+	}
+
+}

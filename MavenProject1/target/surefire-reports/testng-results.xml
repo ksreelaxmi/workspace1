@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-03T21:38:15 PST" name="Suite" finished-at="2022-02-03T21:38:16 PST" duration-ms="39">
+    <groups>
+    </groups>
+    <test started-at="2022-02-03T21:38:15 PST" name="Test" finished-at="2022-02-03T21:38:16 PST" duration-ms="39">
+      <class name="MavenProject.MavenProject1.AppiumTest">
+        <test-method signature="IOSApps()[pri:0, instance:MavenProject.MavenProject1.AppiumTest@28f2a10f]" started-at="2022-02-03T21:38:15 PST" name="IOSApps" finished-at="2022-02-03T21:38:15 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method signature="navtiveAndriod()[pri:0, instance:MavenProject.MavenProject1.AppiumTest@28f2a10f]" started-at="2022-02-03T21:38:15 PST" name="navtiveAndriod" finished-at="2022-02-03T21:38:15 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navtiveAndriod -->
+      </class> <!-- MavenProject.MavenProject1.AppiumTest -->
+      <class name="MavenProject.MavenProject1.SeleniumTest">
+        <test-method signature="browserAutomation()[pri:0, instance:MavenProject.MavenProject1.SeleniumTest@a530d0a]" started-at="2022-02-03T21:38:15 PST" name="browserAutomation" finished-at="2022-02-03T21:38:15 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method signature="elementsUi()[pri:0, instance:MavenProject.MavenProject1.SeleniumTest@a530d0a]" started-at="2022-02-03T21:38:15 PST" name="elementsUi" finished-at="2022-02-03T21:38:15 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUi -->
+      </class> <!-- MavenProject.MavenProject1.SeleniumTest -->
+      <class name="MavenProject.MavenProject1.RestAPITest">
+        <test-method signature="postJira()[pri:0, instance:MavenProject.MavenProject1.RestAPITest@1a18644]" started-at="2022-02-03T21:38:15 PST" name="postJira" finished-at="2022-02-03T21:38:15 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- MavenProject.MavenProject1.RestAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

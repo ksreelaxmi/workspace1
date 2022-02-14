@@ -1,0 +1,42 @@
+package academy;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class base {
+	
+	public void initializeDriver() throws IOException {
+		Properties prop=new Properties();
+		FileInputStream fis=new FileInputStream("C:\\Users\\user\\eclipse-workspace\\e2eProject\\src\\main\\java\\data.properties");
+		prop.load(fis);
+	String browserName=	prop.getProperty("browser");
+	if(browserName=="chrome") {
+		
+		// TODO Auto-generated method stub
+				System.setProperty("webdriver.chrome.driver",
+						"C:\\Users\\user\\Downloads\\chromedriver_win32\\chromedriver.exe");
+				WebDriver driver = new ChromeDriver();
+		
+	}
+	
+	else if(browserName=="edge") {
+		System.setProperty("webdriver.edge.driver","C:\\Users\\user\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+		WebDriver driver =new EdgeDriver();
+		
+	}
+	
+	else if(browserName=="firefox") {
+		//For firefox browser
+	}
+	
+	
+	
+	}
+
+}

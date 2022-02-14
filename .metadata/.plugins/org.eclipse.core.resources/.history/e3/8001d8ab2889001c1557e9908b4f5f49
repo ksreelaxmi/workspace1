@@ -1,0 +1,32 @@
+package testCases;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import pages.LandingPage;
+import pages.LoginPage;
+import resources.base;
+
+public class Login_TC1 extends base {
+
+	@Test
+	public void basePageNavigation() throws IOException, InterruptedException {
+		
+	driver=	initializeDriver();
+	driver.get("http://qaclickacademy.com");
+	
+	//we can access other class methods using inheritance or object creation
+	//LandingPage
+	LandingPage landingPage=new LandingPage(driver);
+	landingPage.clickLogin().click();
+	
+	//Login Page
+	LoginPage loginPage=new LoginPage(driver);
+	loginPage.enterEmailId().sendKeys("Sree@abc");
+	loginPage.enterPassword().sendKeys("hgj");
+	loginPage.clickLoginButton().click();
+		
+	}
+
+}

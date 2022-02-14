@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-10T17:40:18 PST" name="Suite" finished-at="2022-02-10T17:40:37 PST" duration-ms="18935">
+    <groups>
+    </groups>
+    <test started-at="2022-02-10T17:40:18 PST" name="Test" finished-at="2022-02-10T17:40:37 PST" duration-ms="18935">
+      <class name="testCases.Login_TC1">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testCases.Login_TC1@7133da86]" started-at="2022-02-10T17:40:18 PST" name="initilize" finished-at="2022-02-10T17:40:29 PST" duration-ms="10547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login_TC1@7133da86]" started-at="2022-02-10T17:40:29 PST" name="basePageNavigation" data-provider="getData" finished-at="2022-02-10T17:40:30 PST" duration-ms="1402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login_TC1@7133da86]" started-at="2022-02-10T17:40:30 PST" name="teardown" finished-at="2022-02-10T17:40:30 PST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testCases.Login_TC1@7133da86]" started-at="2022-02-10T17:40:30 PST" name="initilize" finished-at="2022-02-10T17:40:36 PST" duration-ms="5238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login_TC1@7133da86]" started-at="2022-02-10T17:40:36 PST" name="basePageNavigation" data-provider="getData" finished-at="2022-02-10T17:40:37 PST" duration-ms="1347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testData2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login_TC1@7133da86]" started-at="2022-02-10T17:40:37 PST" name="teardown" finished-at="2022-02-10T17:40:37 PST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Login_TC1 -->
+      <class name="testCases.VerifyContactNavBar_TC3">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testCases.VerifyContactNavBar_TC3@485966cc]" started-at="2022-02-10T17:40:18 PST" name="initilize" finished-at="2022-02-10T17:40:27 PST" duration-ms="9248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="validateTitle()[pri:0, instance:testCases.VerifyContactNavBar_TC3@485966cc]" started-at="2022-02-10T17:40:27 PST" name="validateTitle" finished-at="2022-02-10T17:40:28 PST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.VerifyContactNavBar_TC3@485966cc]" started-at="2022-02-10T17:40:28 PST" name="teardown" finished-at="2022-02-10T17:40:28 PST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.VerifyContactNavBar_TC3 -->
+      <class name="testCases.VeifyTitle_TC2">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testCases.VeifyTitle_TC2@1de76cc7]" started-at="2022-02-10T17:40:18 PST" name="initilize" finished-at="2022-02-10T17:40:28 PST" duration-ms="9452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="validateTitle()[pri:0, instance:testCases.VeifyTitle_TC2@1de76cc7]" started-at="2022-02-10T17:40:28 PST" name="validateTitle" finished-at="2022-02-10T17:40:28 PST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.VeifyTitle_TC2@1de76cc7]" started-at="2022-02-10T17:40:28 PST" name="teardown" finished-at="2022-02-10T17:40:28 PST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.VeifyTitle_TC2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2022-02-10T17:40:37 PST" name="Suite (0)" finished-at="2022-02-10T17:41:06 PST" duration-ms="28742">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5677323c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-10T17:40:37 PST" name="Test" finished-at="2022-02-10T17:41:06 PST" duration-ms="28742">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner@5677323c]" started-at="2022-02-10T17:40:37 PST" name="setUpClass" finished-at="2022-02-10T17:40:38 PST" duration-ms="380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f7a7219]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5677323c]" started-at="2022-02-10T17:40:38 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-10T17:40:52 PST" duration-ms="14397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating Login Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5677323c]" started-at="2022-02-10T17:40:52 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-10T17:41:06 PST" duration-ms="13944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating Login Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@5677323c]" started-at="2022-02-10T17:41:06 PST" name="tearDownClass" finished-at="2022-02-10T17:41:06 PST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

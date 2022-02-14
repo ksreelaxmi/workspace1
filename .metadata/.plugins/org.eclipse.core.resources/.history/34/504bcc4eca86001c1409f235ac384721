@@ -1,0 +1,52 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Iterator;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class dataDriven {
+
+	public static void main(String[] args) throws IOException {
+
+		FileInputStream fis = new FileInputStream("C:\\Users\\user\\Downloads\\demodata.xlsx");
+
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		int sheetsCount = workbook.getNumberOfSheets();
+		System.out.println(sheetsCount);
+		for (int i = 0; i < sheetsCount; i++) {
+
+			if (workbook.getSheetAt(i).getSheetName().equalsIgnoreCase("testdata")) {
+
+				XSSFSheet sheet = workbook.getSheetAt(i);//
+
+				Iterator<Row> row = sheet.rowIterator();
+				Row firstRow = row.next();
+				Iterator<Cell> cell = firstRow.cellIterator();// Row is collections of cells
+				int k = 0;
+				int coulmn = 0;
+				while (cell.hasNext()) {
+
+					if (cell.next().getStringCellValue().equalsIgnoreCase("TestCases")) {
+						coulmn = k;
+					}
+					k++;
+				}
+
+				while (row.hasNext()) {
+					row.next();
+					if (cell.next().getStringCellValue().equalsIgnoreCase("Purchase")) {
+						while (cell.hasNext()) {
+							System.out.println("Purchase row values are  "+cell.next().getStringCellValue());
+						}
+					}
+				}
+
+			}
+
+		}
+	}
+}

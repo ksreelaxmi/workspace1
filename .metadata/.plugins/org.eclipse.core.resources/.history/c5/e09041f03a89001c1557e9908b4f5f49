@@ -1,0 +1,26 @@
+package testCases;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pages.LandingPage;
+import resources.base;
+
+public class VerifyContactNavBar_TC3 extends base {
+	
+	@Test
+	public void validateTitle() throws IOException
+	{
+		driver=initializeDriver();
+		//driver.get("http://qaclickacademy.com");
+		driver.get(prop.getProperty("url"));
+		
+		LandingPage landingPage=new LandingPage(driver);
+		Assert.assertTrue(landingPage.getContactNavBar().isDisplayed());
+		
+		
+	}
+
+}
