@@ -23,6 +23,7 @@ public class Assign1 {
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().sendKeys("Toys").perform();
 		
 		a.moveToElement(driver.findElement(By.className("icp-nav-flag"))).clickAndHold().perform();
+		
 		a.moveToElement(driver.findElement(By.xpath("(//i[@class='icp-radio'])[3]"))).click().perform();
 		
 		

@@ -27,6 +27,7 @@ public class HandlingLinks {
 		WebElement coulmndriver = footerdriver.findElement(By.xpath("//tbody/tr/td/ul"));
 		//getting links in that coulmn
 		List<WebElement> linkToBeClink = coulmndriver.findElements(By.tagName("a"));
+		
 		//count of links in that coulmn
 		int count = coulmndriver.findElements(By.tagName("a")).size();
 		System.out.println(count);

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="HandleWindowPopUps"/>
 			<item value="JavaStrems"/>
 			<item value="Project"/>
 			<item value="Project2"/>
@@ -10,6 +11,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="HandleWindowPopUps"/>
 			<item value="JavaStrems"/>
 			<item value="Project"/>
 			<item value="Project2"/>
@@ -53,25 +55,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="CucumberFramework"/>
-			<item value="Cucumber.Cucumber"/>
-			<item value="academy"/>
-			<item value="PageObjectModel.PageObjectModel"/>
-			<item value="PageObject"/>
 		</list>
 		<list key="groupId">
-			<item value="CucumberFramework"/>
-			<item value="Cucumber"/>
-			<item value="academy"/>
-			<item value="PageObjectModel"/>
-			<item value="PageObject"/>
 		</list>
 		<list key="artifactId">
-			<item value="CucumberFramework"/>
-			<item value="Cucumber"/>
-			<item value="e2eProject"/>
-			<item value="PageObjectModel"/>
-			<item value="PageObject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

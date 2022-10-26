@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-07T20:00:53 PST" name="Default suite" finished-at="2022-02-07T20:01:05 PST" duration-ms="12033">
+  <suite started-at="2022-03-11T18:38:12 GMT-08:00" name="Default suite" finished-at="2022-03-11T18:38:25 GMT-08:00" duration-ms="12602">
     <groups>
     </groups>
-    <test started-at="2022-02-07T20:00:53 PST" name="Default test" finished-at="2022-02-07T20:01:05 PST" duration-ms="12033">
+    <test started-at="2022-03-11T18:38:12 GMT-08:00" name="Default test" finished-at="2022-03-11T18:38:25 GMT-08:00" duration-ms="12602">
       <class name="TestCases.LoginApplication">
-        <test-method signature="loginPge()[pri:0, instance:TestCases.LoginApplication@1e04fa0a]" started-at="2022-02-07T20:00:53 PST" name="loginPge" finished-at="2022-02-07T20:01:05 PST" duration-ms="11958" status="PASS">
+        <test-method signature="loginPge()[pri:0, instance:TestCases.LoginApplication@1e04fa0a]" started-at="2022-03-11T18:38:12 GMT-08:00" name="loginPge" finished-at="2022-03-11T18:38:25 GMT-08:00" duration-ms="12535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPge -->

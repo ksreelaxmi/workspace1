@@ -18,6 +18,7 @@ public class Assignment3 {
 
 		Select options = new Select(driver.findElement(By.id("dropdown-class-example")));
 		options.selectByVisibleText(s);
+		
 
 		driver.findElement(By.id("name")).sendKeys(s);
 		driver.findElement(By.id("alertbtn")).click();

@@ -18,9 +18,9 @@ public class AssignmentOnWebTable {
 		
 		System.out.println("Rows are "+driver.findElements(By.xpath("//table[@class='table-display']/tbody/tr")).size());
 		
-	System.out.println("The coulmns are  "+	driver.findElements(By.xpath("//table[@class='table-display']/tbody/tr/th")).size());
+	System.out.println("The coulmns are  "+	driver.findElements(By.xpath("//table[@class='table-display']/tbody/tr[2]/td")).size());
 	System.out.println("The Second Row is  "+driver.findElement(By.xpath("//table[@name='courses']/tbody/tr[3]")).getText());
-
+	
 	}
 
 }

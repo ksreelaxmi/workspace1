@@ -12,6 +12,7 @@ public class Locator3 {
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		//Sibing--parent to child traverse using sibling
 		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText());
+		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).isDisplayed());
 		//Traversing from child to parent 
 	//	driver.findElement(By.xpath("//header/div/button[1]/parent::div/parent::header/a[2]")).click();
 		

@@ -1,3 +1,4 @@
+
 package testCases;
 
 import java.io.IOException;
@@ -46,6 +47,7 @@ public class Login_TC1 extends base {
 		//rows number means how many no of scenarios we are testing.
 		//Column number how many values are passing per each test.
 		//If array size is 2 means it will store it as 0,1 index
+		//3-> 0 1 2 
 		Object[][] data=new Object[2][3];
 		//Row0--scenario 1
 		data[0][0]="User1";

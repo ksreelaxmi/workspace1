@@ -1,9 +1,0 @@
-Feature: Login to application
-
-Scenario: Validating Login Page
-Given Intialize the browser with chrome
-And Navigate to "https://qclickacademy.com"
-And click on Signin button on Home Page
-When User enters "Username" and "password"
-Then Verify that user is successfully logged in
-And Close browsers

@@ -15,6 +15,8 @@ public class FramesAssignment {
 		driver.switchTo().frame(driver.findElement(By.name("frame-top")));
 		driver.switchTo().frame(driver.findElement(By.name("frame-middle")));
 	System.out.println(driver.findElement(By.id("content")).getText());	
+	
+
 	}
 
 }
